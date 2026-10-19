@@ -2998,3 +2998,498 @@ button, input, select, textarea {
     justify-content: center;
   }
 }
+
+/* ==========================================================================
+   OFFICIAL VISITOR COUNTERS (STATS & FOOTER)
+   ========================================================================== */
+.stats-visitor-counter-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.stats-visitor-counter {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: rgba(36, 5, 12, 0.75);
+  border: 1px solid rgba(198, 161, 91, 0.4);
+  border-radius: 9999px;
+  padding: 0.5rem 1.25rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(8px);
+}
+
+.visitor-live-ping {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ping-circle {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #10B981;
+  opacity: 0.75;
+  animation: ping 1.5s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+.ping-core {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #10B981;
+}
+
+@keyframes ping {
+  75%, 100% {
+    transform: scale(2.2);
+    opacity: 0;
+  }
+}
+
+.visitor-counter-text {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--gold-pale);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.visitor-odometer {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.v-digit {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #24050C 0%, #150206 100%);
+  color: var(--gold);
+  border: 1px solid rgba(198, 161, 91, 0.6);
+  border-radius: 4px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.95rem;
+  font-weight: 700;
+  min-width: 1.35rem;
+  height: 1.6rem;
+  padding: 0 0.2rem;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.visitor-counter-tag {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--gold-dark);
+  border-left: 1px solid rgba(198, 161, 91, 0.3);
+  padding-left: 0.6rem;
+}
+
+/* Footer Visitor Counter */
+.footer-visitor-counter-card {
+  margin-top: 1.25rem;
+  padding: 0.85rem 1rem;
+  background: rgba(36, 5, 12, 0.7);
+  border: 1px solid rgba(198, 161, 91, 0.3);
+  border-radius: 4px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.counter-header-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.45rem;
+}
+
+.counter-live-pulse {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #10B981;
+  box-shadow: 0 0 8px #10B981;
+}
+
+.counter-header-title {
+  font-size: 0.6875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--gold-pale);
+  font-weight: 600;
+}
+
+.footer-odometer-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.odometer-digits-wrap {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.odometer-digit {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #1A0308 0%, #0D0104 100%);
+  color: var(--gold);
+  border: 1px solid rgba(198, 161, 91, 0.7);
+  border-radius: 3px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  font-weight: 700;
+  min-width: 1.45rem;
+  height: 1.75rem;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.8), 0 1px 2px rgba(198, 161, 91, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.odometer-status {
+  font-size: 0.65rem;
+  color: rgba(247, 243, 237, 0.65);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* ==========================================================================
+   BUSINESS OPPORTUNITIES FOR BUILDERS & DEVELOPERS
+   ========================================================================== */
+.builder-opp-section {
+  padding: 5.5rem 0;
+  background: linear-gradient(180deg, var(--ivory) 0%, #EDE6DC 100%);
+  position: relative;
+}
+
+.builder-opp-card {
+  background: #FFFFFF;
+  border: 1px solid var(--ivory-border);
+  border-top: 4px solid var(--gold);
+  border-radius: 6px;
+  padding: 3rem 3.5rem;
+  box-shadow: var(--shadow-luxury);
+  position: relative;
+  overflow: hidden;
+}
+
+.builder-opp-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 320px;
+  height: 320px;
+  background: radial-gradient(circle, rgba(198, 161, 91, 0.08) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.builder-tag-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.builder-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: var(--burgundy-deep);
+  color: var(--gold);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  padding: 0.35rem 0.85rem;
+  border-radius: 3px;
+}
+
+.builder-alert-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  background: rgba(198, 161, 91, 0.15);
+  border: 1px solid rgba(198, 161, 91, 0.5);
+  color: var(--burgundy);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  padding: 0.3rem 0.75rem;
+  border-radius: 3px;
+}
+
+.alert-pulse {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #DC2626;
+  box-shadow: 0 0 6px rgba(220, 38, 38, 0.8);
+}
+
+.builder-title {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 3.8vw, 2.85rem);
+  font-weight: 700;
+  color: var(--burgundy);
+  line-height: 1.15;
+  margin-bottom: 0.5rem;
+}
+
+.builder-subtitle {
+  font-size: 1.05rem;
+  color: var(--charcoal);
+  font-weight: 400;
+  line-height: 1.7;
+  max-width: 52rem;
+}
+
+.builder-callout {
+  color: var(--burgundy);
+  font-weight: 700;
+  display: inline-block;
+}
+
+/* Corridor Box */
+.builder-corridor-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  background: linear-gradient(135deg, rgba(90, 23, 37, 0.05) 0%, rgba(198, 161, 91, 0.12) 100%);
+  border: 1px solid rgba(198, 161, 91, 0.4);
+  border-left: 5px solid var(--gold);
+  border-radius: 4px;
+  padding: 1.5rem 1.75rem;
+  margin: 2.25rem 0 2.5rem;
+}
+
+.corridor-icon {
+  width: 3rem;
+  height: 3rem;
+  background: var(--burgundy);
+  color: var(--gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  flex-shrink: 0;
+  margin-top: 0.2rem;
+}
+
+.corridor-badge-title {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--gold-dark);
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.corridor-heading {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  color: var(--burgundy);
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.corridor-paragraph {
+  font-size: 0.875rem;
+  color: var(--charcoal-secondary);
+  line-height: 1.6;
+}
+
+/* Builder 4-Grid */
+.builder-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.builder-grid-item {
+  background: #FAFAFA;
+  border: 1px solid rgba(198, 161, 91, 0.25);
+  border-radius: 4px;
+  padding: 1.75rem 1.5rem;
+  transition: all var(--transition-normal);
+  display: flex;
+  flex-direction: column;
+}
+
+.builder-grid-item:hover {
+  transform: translateY(-4px);
+  background: #FFFFFF;
+  border-color: var(--gold);
+  box-shadow: 0 10px 25px rgba(90, 23, 37, 0.08);
+}
+
+.builder-item-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+}
+
+.builder-item-icon {
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 4px;
+  background: rgba(90, 23, 37, 0.08);
+  color: var(--burgundy);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-fast);
+}
+
+.builder-grid-item:hover .builder-item-icon {
+  background: var(--burgundy);
+  color: var(--gold);
+}
+
+.builder-item-num {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: rgba(198, 161, 91, 0.6);
+}
+
+.builder-item-title {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--charcoal);
+  margin-bottom: 0.65rem;
+  line-height: 1.3;
+}
+
+.builder-item-desc {
+  font-size: 0.8125rem;
+  color: var(--charcoal-secondary);
+  line-height: 1.65;
+  font-weight: 300;
+  flex: 1;
+}
+
+/* Collab Bar */
+.builder-collab-bar {
+  background: linear-gradient(135deg, var(--burgundy-deep) 0%, var(--burgundy) 100%);
+  border-radius: 4px;
+  padding: 2.25rem 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  box-shadow: 0 10px 30px rgba(36, 5, 12, 0.25);
+  position: relative;
+  overflow: hidden;
+}
+
+.builder-collab-bar::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 6px;
+  background: var(--gold);
+}
+
+.collab-badge {
+  font-size: 0.6875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--gold);
+  font-weight: 700;
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+.collab-heading {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  color: #FFFFFF;
+  margin-bottom: 0.45rem;
+}
+
+.collab-body {
+  font-size: 0.875rem;
+  color: rgba(247, 243, 237, 0.85);
+  line-height: 1.6;
+  max-width: 44rem;
+}
+
+.collab-motto {
+  font-size: 0.75rem;
+  color: var(--gold-pale);
+  margin-top: 0.75rem;
+  letter-spacing: 0.03em;
+}
+
+.builder-collab-actions-col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  flex-shrink: 0;
+}
+
+@media (max-width: 1024px) {
+  .builder-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .builder-collab-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .builder-collab-actions-col {
+    flex-direction: row;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .builder-opp-card {
+    padding: 2rem 1.25rem;
+  }
+  .builder-grid {
+    grid-template-columns: 1fr;
+  }
+  .builder-corridor-box {
+    flex-direction: column;
+    padding: 1.25rem;
+  }
+  .builder-collab-actions-col {
+    flex-direction: column;
+  }
+  .builder-collab-actions-col .btn {
+    width: 100%;
+    justify-content: center;
+  }
+  .stats-visitor-counter {
+    flex-direction: column;
+    text-align: center;
+    border-radius: 12px;
+    padding: 0.75rem 1rem;
+  }
+  .visitor-counter-tag {
+    border-left: none;
+    border-top: 1px solid rgba(198, 161, 91, 0.3);
+    padding-left: 0;
+    padding-top: 0.4rem;
+  }
+}

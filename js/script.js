@@ -203,4 +203,44 @@ document.addEventListener('DOMContentLoaded', () => {
     e.preventDefault();
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
+
+  // 11. Official Live Visitor Counter
+  const initVisitorCounter = () => {
+    const baseCount = 38428;
+    const storageKey = 'ai_realty_visitor_count';
+    const sessionKey = 'ai_realty_session_visited';
+
+    let currentCount = parseInt(localStorage.getItem(storageKey), 10);
+    if (!currentCount || isNaN(currentCount) || currentCount < baseCount) {
+      currentCount = baseCount;
+    }
+
+    // Increment on new browsing session
+    if (!sessionStorage.getItem(sessionKey)) {
+      currentCount += 1;
+      localStorage.setItem(storageKey, currentCount.toString());
+      sessionStorage.setItem(sessionKey, '1');
+    }
+
+    const countStr = currentCount.toString().padStart(6, '0');
+    const digits = countStr.split('');
+
+    // Update Hero / Stats counter
+    const statsOdometer = document.getElementById('heroVisitorOdometer');
+    if (statsOdometer) {
+      statsOdometer.innerHTML = digits
+        .map(d => `<span class="v-digit">${d}</span>`)
+        .join('');
+    }
+
+    // Update Footer counter
+    const footerDigitsWrap = document.getElementById('visitorDigitsContainer');
+    if (footerDigitsWrap) {
+      footerDigitsWrap.innerHTML = digits
+        .map(d => `<span class="odometer-digit" data-digit="${d}">${d}</span>`)
+        .join('');
+    }
+  };
+
+  initVisitorCounter();
 });

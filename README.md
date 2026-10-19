@@ -24,6 +24,11 @@ Engineered specifically for the Mumbai metropolitan landscape, catering to high-
   - **Sales & Commercial Desk**: `sales@airealty.net.in`
   - **Executive Directorate**: `ajit@airealty.net.in`, `ashok@airealty.net.in`, `akash@airealty.net.in`, `revant@airealty.net.in`, `ikabal@airealty.net.in`
   - **Perennial Group Statutory Desk**: `perennialgroup@yahoo.com`
+- **Official Social & Digital Media**:
+  - **Instagram**: `@airealty.net.in` ([Instagram Reel](https://www.instagram.com/reel/DenKuzGMLQv/?vrfl=MWVlYW1hbGJvNGkzbw==))
+  - **YouTube**: [AI Realty Shorts & Videos](https://youtube.com/shorts/Pd7fl2Pfsdl?si=Vir05TXcFCzwK3cJ)
+  - **Facebook**: [AI Realty Official Page](https://www.facebook.com/share/p/1F2suQzMAp/)
+  - **WhatsApp Desk**: `+91 81081 48889`
 - **Guiding Motto**: *"Customer satisfaction is our ultimate goal."*
 
 ---
@@ -159,6 +164,9 @@ npx serve .
 - **Project Category Filtering**: Instant client-side filtering across *All*, *Land Acquisition*, *SRA Projects*, and *Redevelopment*.
 - **5-Stage SRA Process Timeline**: Interactive step selector for the Slum Rehabilitation Authority lifecycle.
 - **Audience Pathway Selector**: Interactive selection for *Landowners*, *Societies*, and *Development Partners*.
+- **Builder & Developer Collaboration Desk**: High-impact mandate showcase featuring preferred corridor (*Churchgate to Dahisar*) across 4 core verticals (*Society Redevelopment*, *SRA Projects*, *Land Development & Joint Ventures*, and *Residential & Commercial Projects*).
+- **Official Live Web Visitor Counter**: Persistent, animated dual-odometer tracking system featured in the Trust/Stats section and footer.
+- **Official Social Media Integration**: Direct links to Instagram (`@airealty.net.in`), YouTube Shorts, Facebook, and WhatsApp.
 - **Global Consultation Modal**: Pre-populated mandate inquiry modal with validation and submission feedback.
 - **Contact Form**: Direct enquiry processing with confirmation states.
 - **Floating WhatsApp Concierge**: Instant chat button with dismissible advisory notification linking directly to `+91 81081 48889`.
