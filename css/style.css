@@ -2652,8 +2652,8 @@ button, input, select, textarea {
 }
 .statutory-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2.25rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.75rem;
   margin-top: 3.5rem;
 }
 .statutory-card {

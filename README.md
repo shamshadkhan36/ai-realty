@@ -83,6 +83,15 @@ The website features verified statutory certifications from the Government of In
    - **Nature of Work**: Licensed Civil Contractor
    - **File**: [`documents/BMC_Registration_Certificate_AI_Realty.pdf`](documents/BMC_Registration_Certificate_AI_Realty.pdf)
 
+3. **Government of India — Goods and Services Tax (GST)**
+   - **Certificate**: Registration Certificate (Form GST REG-06)
+   - **Registration Number (GSTIN)**: `27ADVPM4836C1Z8`
+   - **Legal / Trade Name**: AJIT MHAMUNKAR / AI REALTY (DSPC Enterprise)
+   - **Proprietor**: Shri Ajit Mhamunkar
+   - **Constitution of Business**: Proprietorship (Regular Taxpayer)
+   - **Registered Address**: Shop No. 15, Ground Floor, Sundrabai Chawl, JVLR, Pratap Nagar, Jogeshwari (E), Mumbai - 400060
+   - **File**: [`documents/GST_Registration_Certificate_AI_Realty.pdf`](documents/GST_Registration_Certificate_AI_Realty.pdf) (Original: `AA271026017374H_RC27102026.pdf`)
+
 ---
 
 ## 🏢 Core Business Verticals
