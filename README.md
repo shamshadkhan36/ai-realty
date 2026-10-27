@@ -26,7 +26,7 @@ Engineered specifically for the Mumbai metropolitan landscape, catering to high-
   - **Perennial Group Statutory Desk**: `perennialgroup@yahoo.com`
 - **Official Social & Digital Media**:
   - **Instagram**: `@airealty.net.in` ([Instagram Reel](https://www.instagram.com/reel/DenKuzGMLQv/?vrfl=MWVlYW1hbGJvNGkzbw==))
-  - **YouTube**: [AI Realty Shorts & Videos](https://youtube.com/shorts/Pd7fl2Pfsdl?si=Vir05TXcFCzwK3cJ)
+  - **YouTube**: [AI Realty Shorts & Videos](https://youtube.com/shorts/Pd7fl2PfsdI?si=_PgBcmeaN1hBOH9e)
   - **Facebook**: [AI Realty Official Page](https://www.facebook.com/share/p/1F2suQzMAp/)
   - **WhatsApp Desk**: `+91 81081 48889`
 - **Guiding Motto**: *"Customer satisfaction is our ultimate goal."*
@@ -165,6 +165,7 @@ npx serve .
 - **5-Stage SRA Process Timeline**: Interactive step selector for the Slum Rehabilitation Authority lifecycle.
 - **Audience Pathway Selector**: Interactive selection for *Landowners*, *Societies*, and *Development Partners*.
 - **Builder & Developer Collaboration Desk**: High-impact mandate showcase featuring preferred corridor (*Churchgate to Dahisar*) across 4 core verticals (*Society Redevelopment*, *SRA Projects*, *Land Development & Joint Ventures*, and *Residential & Commercial Projects*).
+- **Embedded Corporate Brand Film & Video**: In-situ responsive vertical smartphone reel player featuring the official AI Realty showcase broadcast.
 - **Official Live Web Visitor Counter**: Persistent, animated dual-odometer tracking system featured in the Trust/Stats section and footer.
 - **Official Social Media Integration**: Direct links to Instagram (`@airealty.net.in`), YouTube Shorts, Facebook, and WhatsApp.
 - **Global Consultation Modal**: Pre-populated mandate inquiry modal with validation and submission feedback.
